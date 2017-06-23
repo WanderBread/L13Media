@@ -1,0 +1,141 @@
+doctype html
+html
+  head
+    title L13 MEDIA
+    
+    meta( name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/icon?family=Material+Icons')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    link(rel='stylesheet', href='https://cdnjs.com/libraries/bulma')
+    link(rel='stylesheet', href='/css/main.css')
+  body
+   header
+     main    
+      include ./_pugPages/navBar.pug
+      div(id='home')
+        div(class='slider fullscreen')
+          ul(class='slides')
+            li
+              img(src='/img/cameraBgn.jpg')
+              div(class='caption left-align')
+                h3 Big caption
+                h5(class='light grey-text text-lighten-3') Small Caption    
+            li
+              img(src='/img/redBuggie.jpg')
+              div(class='caption left-align')
+                h3 Big caption
+                h5(class='light grey-text text-lighten-3') Small Caption        
+            li
+              img(src='/img/cameraonwindow.jpg')
+              div(class='caption left-align')
+                h3 Big caption
+                h5(class='light grey-text text-lighten-3') Small Caption 
+            li
+              img(src='/img/cameraontripod.jpg')
+              div(class='caption left-align')
+                h3 Big caption
+                h5(class='light grey-text text-lighten-3') Small Caption     
+      
+      div(class='parallax-container hero', id='about')
+        div(class='parallax')
+          img(src='/img/Rocio.jpg', class='rocio responsive-img')
+
+            
+      div(class='hero second-hero  purple', id='mission')
+        div(class='information container')
+          h1(class='header center-align white-text') Who We Are
+          hr
+          div(class='row center-align')
+            div(class='col s12 center-align')
+              p(class='center-align white-text') Lorem ipsum dolor sit amet, consectetur adipisicing
+                |elit, sed do eiusmod tempor incididunt ut labore et 
+                |dolore magna aliqua. Ut enim ad minim veniam, quis 
+                |nostrud exercitation ullamco laboris nisi ut aliquip 
+                |ex ea commodo consequat. Duis aute irure dolor in 
+                |reprehenderit in voluptate velit esse cillum dolore eu 
+                |fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                |non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                |Lorem ipsum dolor sit amet, consectetur adipisicing
+                |elit, sed do eiusmod tempor incididunt ut labore et 
+                |dolore magna aliqua. Ut enim ad minim veniam, quis 
+                |nostrud exercitation ullamco laboris nisi ut aliquip 
+                |ex ea commodo consequat. Duis aute irure dolor in 
+                |reprehenderit in voluptate velit esse cillum dolore eu 
+                |fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                |non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                |Lorem ipsum dolor sit amet, consectetur adipisicing
+                |elit, sed do eiusmod tempor incididunt ut labore et 
+                |dolore magna aliqua. Ut enim ad minim veniam, quis 
+                |nostrud exercitation ullamco laboris nisi ut aliquip 
+                |ex ea commodo consequat. Duis aute irure dolor in 
+                |reprehenderit in voluptate velit esse cillum dolore eu 
+                |fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                |non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                |Lorem ipsum dolor sit amet, consectetur adipisicing
+                |elit, sed do eiusmod tempor incididunt ut labore et 
+                |dolore magna aliqua. Ut enim ad minim veniam, quis 
+                |nostrud exercitation ullamco laboris nisi ut aliquip 
+                |ex ea commodo consequat. Duis aute irure dolor in 
+                |reprehenderit in voluptate velit esse cillum dolore eu 
+                |fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                |non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            div(class='col s4 offset-s4 btn-div')
+              a(class='btn-large waves-effect waves-light red', href='#mission') Learn More    
+          div(class='row')
+            div(class='col s4 m7card1')
+              div(class='card grey center-align')
+                i(class='material-icons large') camera_alt 
+                div(class='card-title') Photography
+                p(class='center-align white-text')
+                  |Lorem ipsum dolor sit amet, consectetur adipisicing
+                  |elit, sed do eiusmod tempor incididunt ut labore et 
+                  |dolore magna aliqua. Ut enim ad minim veniam, quis 
+                  |nostrud exercitation ullamco laboris nisi ut aliquip 
+                  |ex ea commodo consequat. Duis aute irure dolor in 
+                  |reprehenderit in voluptate velit esse cillum dolore eu 
+                  |fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                  |non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            
+            div(class='col s4 card2')
+              div(class='card grey center-align')
+                i(class='material-icons large') videocam
+                div(class='card-title') Video
+                p(class='center-align white-text')
+                  |Lorem ipsum dolor sit amet, consectetur adipisicing
+                  |elit, sed do eiusmod tempor incididunt ut labore et 
+                  |dolore magna aliqua. Ut enim ad minim veniam, quis 
+                  |nostrud exercitation ullamco laboris nisi ut aliquip 
+                  |ex ea commodo consequat. Duis aute irure dolor in 
+                  |reprehenderit in voluptate velit esse cillum dolore eu 
+                  |fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                  |non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            div(class='col s4 card3')
+              div(class='card grey center-align')
+                i(class='material-icons large') assignment_ind
+                div(class='card-title') Talent
+                p(class='center-align white-text')
+                  |Lorem ipsum dolor sit amet, consectetur adipisicing
+                  |elit, sed do eiusmod tempor incididunt ut labore et 
+                  |dolore magna aliqua. Ut enim ad minim veniam, quis 
+                  |nostrud exercitation ullamco laboris nisi ut aliquip 
+                  |ex ea commodo consequat. Duis aute irure dolor in 
+                  |reprehenderit in voluptate velit esse cillum dolore eu 
+                  |fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                  |non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      div(class='hero second-hero  teal', id='galleries')  
+      div(class='hero second-hero  yellow', id='contact')            
+    
+      include ./_pugPages/footer.pug  
+              
+            
+            
+            
+            
+          
+            
+            
+      script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js')
+      script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+      script(src='/js/main.js')
